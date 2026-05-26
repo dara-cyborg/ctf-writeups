@@ -1,5 +1,5 @@
 ---
-title: 🎯 Cyberspace Exploration & Writeups
+title: Dara-Cyborg's Writeups
 layout: homepage
 ---
 
