@@ -14,8 +14,8 @@ Here, I break down complex machine exploits, network analysis, and custom tool m
 ## 🛠️ Machine Walkthroughs & Writeups
 
 ### Recent Exploded Labs
-* **[lookup Writeup](lookup%20Writeup.md)** — Detailed walkthrough focusing on enumeration tactics, privilege escalation, and lateral movement vectors.
-* *Upcoming Lab Writeups...*
+* **[lookup Writeup](Lookup-Writeup.md)**
+* **[LazyAdmin Writeup](LazyAdmin-Writeup.md)**
 
 ---
 
