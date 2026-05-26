@@ -1,3 +1,6 @@
+---
+title: THM Lookup Writeup
+---
 [Lookup Room](https://tryhackme.com/room/lookup)
 # Set up
 Add the target to `/etc/hosts`.
