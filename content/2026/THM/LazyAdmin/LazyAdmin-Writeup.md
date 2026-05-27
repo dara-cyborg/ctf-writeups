@@ -1,3 +1,7 @@
+---
+title: LazyAdmin Writeup
+---
+
 [LazyAdmin Room](https://tryhackme.com/room/lazyadmin)
 # Setup
 Let's add our target to `/etc/hosts`:
