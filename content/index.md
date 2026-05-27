@@ -16,6 +16,7 @@ Here, I break down complex machine exploits, network analysis, and custom tool m
 ### Recent Exploded Labs
 * **[lookup Writeup](Lookup-Writeup.md)**
 * **[LazyAdmin Writeup](LazyAdmin-Writeup.md)**
+* **[Ignite Writeup](Ignite-Writeup.md)**
 
 ---
 
