@@ -1,5 +1,5 @@
 ---
-title: THM Lookup Writeup
+title: Lookup Writeup
 ---
 [Lookup Room](https://tryhackme.com/room/lookup)
 # Set up

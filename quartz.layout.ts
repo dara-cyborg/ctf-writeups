@@ -27,12 +27,12 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer({
+    Component.Explorer({ // <--- FIXED: Stripped DesktopOnly wrapper
       title: "Explorer",
       folderClickBehavior: "collapse",
       folderDefaultState: "open",
       useSavedState: true,
-    })),
+    }),
   ],
   right: [
     Component.Graph(),
@@ -49,12 +49,15 @@ export const defaultListPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer({
+    Component.Explorer({ // <--- FIXED: Stripped DesktopOnly wrapper
       title: "Explorer",
       folderClickBehavior: "collapse",
       folderDefaultState: "open",
       useSavedState: true,
-    })),
+    }),
   ],
-  right: [],
+  right: [
+    Component.Graph(),      // <--- FIXED: Balanced grid alignment for folders
+    Component.Backlinks(),  // <--- FIXED: Adds references back to the listing
+  ],
 }
